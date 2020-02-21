@@ -6,10 +6,21 @@ const Container = styled.div`
   margin: 0 auto;
 `;
 
-const MainView = () => (
-  <Container>
-    <h1>Hi!</h1>
-  </Container>
-);
+class MainView extends React.Component {
+  constructor(props) {
+    super(props);
+    localStorage.setItem('itemKey', JSON.stringify({ test: 'text' }));
+  }
+
+  render() {
+    const item = JSON.parse(localStorage.getItem('itemKey'));
+    return (
+      <Container>
+				{ item.test }
+        <a href="/2"> 링크 </a>
+			</Container>
+    );
+  }
+}
 
 export default MainView;
