@@ -13,10 +13,12 @@ import Information from './views/DrugStoreView/Information';
 
 import PrescriptionDescription from './views/PatientView/PrescriptionDescription';
 
-
 import QRReader from './views/TestView/QRReader';
 import CompareTest from './views/TestView/CompareTest';
+
+
 const routes = [
+  
   {
     id: 'main',
     path: '/',
