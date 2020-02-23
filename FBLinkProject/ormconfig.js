@@ -5,8 +5,8 @@ module.exports = {
   host: "localhost",
   port: 3306,
   username: "root",
-  password: "password",
-  database: "timmy",
+  password: "1234",
+  database: "test",
   entities: [
     './schemas/*.js'
   ],

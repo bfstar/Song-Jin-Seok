@@ -1,12 +1,13 @@
 class Prescription{
-    constructor(prescriptionID,patientDisease,patientState,organ,
-        medicineNotice){
+    constructor(id,patientName,patientSex,patientAge,
+        prescriptionNum,date){
 
-        this.prescriptionID = prescriptionID;
-        this.patientDisease = patientDisease;
-        this.patientState = patientState;
-        this.organ = organ;
-        this.medicineNotice = medicineNotice;
+        this.id = id;
+        this.patientName = patientName;
+        this.patientSex = patientSex;
+        this.patientAge = patientAge;
+        this.prescriptionNum = prescriptionNum;
+        this.date = date;
 
     }
 }

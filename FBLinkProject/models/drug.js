@@ -1,8 +1,8 @@
 class Drug {
-    constructor(id, drugName, medicineNum) {
-        this.id = id;
+    constructor(drugName,  drugAmount, drugId) {
+        this.drugId = drugId;
         this.drugName = drugName;
-        this.medicineNum = medicineNum;
+        this.drugAmount = drugAmount;
     }
 }
 
